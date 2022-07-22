@@ -1,0 +1,114 @@
+body{
+    background-image:url(./image1/gorg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    }
+ header {
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+        min-height: 8vh;
+        background-color: rgba(0, 0, 0, 0.399);
+        transition: 0.3s ease background-color;
+    }
+    
+    .meniu{
+        text-decoration: none;
+        margin: 1vh;
+        float: right;
+        padding: 2vh;
+        font-size: 25px;
+        color: white;
+    }
+    .meniu, .title{
+        display: inline-block;
+    }
+    
+    .title{
+        margin: 2vh;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+    }
+
+/* container section style style*/
+.container{
+    background-color:azure;
+    width: 87%;
+    margin:0px auto;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+/* container section style end*/
+
+
+.textsize{
+    margin: 20px;
+}
+.text{
+    text-align: justify;
+}
+.barekendan {
+    text-align: center;
+    /* margin: 5% 1% 8% 1%; */
+    padding: 2%;
+    font-size: 50px;}
+
+    span {color:red
+}
+
+.photo {
+    height: 300px;
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+    font-size: large;
+}
+
+h3 {text-align: center;
+    color:brown;
+    font-weight: 50%;
+    font-size: 30px;
+} 
+
+#more {
+	display: none;
+	color: black;
+}
+
+#more1 {
+	display: none;
+	color: black;
+}
+
+#more2 {
+	display: none;
+	color: black;
+}
+
+  
+.iframe{
+    padding:0px 500px;}
+
+.logo {
+    width: 200px;
+}
+#tesanyut {
+    padding-right: 50%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(248, 188, 209) ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 20px;
+  }
